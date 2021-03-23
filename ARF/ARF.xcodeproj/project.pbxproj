@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0590CB25FEC0880077E4A5 /* ARFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0590CA25FEC0880077E4A5 /* ARFApp.swift */; };
+		FA0590CD25FEC0880077E4A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0590CC25FEC0880077E4A5 /* ContentView.swift */; };
+		FA0590CF25FEC08B0077E4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0590CE25FEC08B0077E4A5 /* Assets.xcassets */; };
+		FA0590D225FEC08B0077E4A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0590D125FEC08B0077E4A5 /* Preview Assets.xcassets */; };
+		FA0590EA25FEC3560077E4A5 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590DB25FEC34E0077E4A5 /* wateringcan.usdz */; };
+		FA0590EB25FEC3560077E4A5 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590DC25FEC34E0077E4A5 /* teapot.usdz */; };
+		FA0590EC25FEC3560077E4A5 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590DD25FEC34F0077E4A5 /* chair_swan.usdz */; };
+		FA0590ED25FEC3560077E4A5 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590DE25FEC34F0077E4A5 /* toy_biplane.usdz */; };
+		FA0590EE25FEC3560077E4A5 /* pot_plant.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590DF25FEC3500077E4A5 /* pot_plant.usdz */; };
+		FA0590EF25FEC3560077E4A5 /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E025FEC3500077E4A5 /* wheelbarrow.usdz */; };
+		FA0590F025FEC3560077E4A5 /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E125FEC3510077E4A5 /* trowel.usdz */; };
+		FA0590F125FEC3560077E4A5 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E225FEC3510077E4A5 /* cup_saucer_set.usdz */; };
+		FA0590F225FEC3560077E4A5 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E325FEC3520077E4A5 /* gramophone.usdz */; };
+		FA0590F325FEC3560077E4A5 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E425FEC3520077E4A5 /* tv_retro.usdz */; };
+		FA0590F425FEC3560077E4A5 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E525FEC3530077E4A5 /* toy_robot_vintage.usdz */; };
+		FA0590F525FEC3560077E4A5 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E625FEC3540077E4A5 /* toy_car.usdz */; };
+		FA0590F625FEC3560077E4A5 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E725FEC3540077E4A5 /* toy_drummer.usdz */; };
+		FA0590F725FEC3560077E4A5 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E825FEC3550077E4A5 /* fender_stratocaster.usdz */; };
+		FA0590F825FEC3560077E4A5 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA0590E925FEC3550077E4A5 /* flower_tulip.usdz */; };
+		FA0590FB25FEC4510077E4A5 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0590FA25FEC4510077E4A5 /* ControlView.swift */; };
+		FA859C9A25FF030200267700 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA859C9925FF030200267700 /* BrowseView.swift */; };
+		FA859C9D25FF059100267700 /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA859C9C25FF059100267700 /* AssetModel.swift */; };
+		FA859CA025FF298500267700 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA859C9F25FF298500267700 /* PlacementSettings.swift */; };
+		FA859CA325FF2B3D00267700 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA859CA225FF2B3D00267700 /* PlacementView.swift */; };
+		FA859CA725FFC09300267700 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = FA859CA625FFC09300267700 /* FocusEntity */; };
+		FA859CAA25FFC0D100267700 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA859CA925FFC0D100267700 /* CustomARView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0590C725FEC0880077E4A5 /* ARF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0590CA25FEC0880077E4A5 /* ARFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFApp.swift; sourceTree = "<group>"; };
+		FA0590CC25FEC0880077E4A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0590CE25FEC08B0077E4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0590D125FEC08B0077E4A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0590D325FEC08B0077E4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0590DB25FEC34E0077E4A5 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		FA0590DC25FEC34E0077E4A5 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		FA0590DD25FEC34F0077E4A5 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		FA0590DE25FEC34F0077E4A5 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		FA0590DF25FEC3500077E4A5 /* pot_plant.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pot_plant.usdz; sourceTree = "<group>"; };
+		FA0590E025FEC3500077E4A5 /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		FA0590E125FEC3510077E4A5 /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = trowel.usdz; sourceTree = "<group>"; };
+		FA0590E225FEC3510077E4A5 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		FA0590E325FEC3520077E4A5 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		FA0590E425FEC3520077E4A5 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		FA0590E525FEC3530077E4A5 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		FA0590E625FEC3540077E4A5 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		FA0590E725FEC3540077E4A5 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		FA0590E825FEC3550077E4A5 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		FA0590E925FEC3550077E4A5 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		FA0590FA25FEC4510077E4A5 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		FA859C9925FF030200267700 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		FA859C9C25FF059100267700 /* AssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModel.swift; sourceTree = "<group>"; };
+		FA859C9F25FF298500267700 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		FA859CA225FF2B3D00267700 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		FA859CA925FFC0D100267700 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0590C425FEC0880077E4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA859CA725FFC09300267700 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0590BE25FEC0880077E4A5 = {
+			isa = PBXGroup;
+			children = (
+				FA0590C925FEC0880077E4A5 /* ARF */,
+				FA0590C825FEC0880077E4A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0590C825FEC0880077E4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0590C725FEC0880077E4A5 /* ARF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0590C925FEC0880077E4A5 /* ARF */ = {
+			isa = PBXGroup;
+			children = (
+				FA0590CA25FEC0880077E4A5 /* ARFApp.swift */,
+				FA0590CC25FEC0880077E4A5 /* ContentView.swift */,
+				FA859CA925FFC0D100267700 /* CustomARView.swift */,
+				FA0590FA25FEC4510077E4A5 /* ControlView.swift */,
+				FA859C9925FF030200267700 /* BrowseView.swift */,
+				FA859CA225FF2B3D00267700 /* PlacementView.swift */,
+				FA859C9F25FF298500267700 /* PlacementSettings.swift */,
+				FA859C9C25FF059100267700 /* AssetModel.swift */,
+				FA0590CE25FEC08B0077E4A5 /* Assets.xcassets */,
+				FA0590D325FEC08B0077E4A5 /* Info.plist */,
+				FA0590DA25FEC30B0077E4A5 /* 3D Assets */,
+				FA0590D025FEC08B0077E4A5 /* Preview Content */,
+			);
+			path = ARF;
+			sourceTree = "<group>";
+		};
+		FA0590D025FEC08B0077E4A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0590D125FEC08B0077E4A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0590DA25FEC30B0077E4A5 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA0590DD25FEC34F0077E4A5 /* chair_swan.usdz */,
+				FA0590E225FEC3510077E4A5 /* cup_saucer_set.usdz */,
+				FA0590E825FEC3550077E4A5 /* fender_stratocaster.usdz */,
+				FA0590E925FEC3550077E4A5 /* flower_tulip.usdz */,
+				FA0590E325FEC3520077E4A5 /* gramophone.usdz */,
+				FA0590DF25FEC3500077E4A5 /* pot_plant.usdz */,
+				FA0590DC25FEC34E0077E4A5 /* teapot.usdz */,
+				FA0590DE25FEC34F0077E4A5 /* toy_biplane.usdz */,
+				FA0590E625FEC3540077E4A5 /* toy_car.usdz */,
+				FA0590E725FEC3540077E4A5 /* toy_drummer.usdz */,
+				FA0590E525FEC3530077E4A5 /* toy_robot_vintage.usdz */,
+				FA0590E125FEC3510077E4A5 /* trowel.usdz */,
+				FA0590E425FEC3520077E4A5 /* tv_retro.usdz */,
+				FA0590DB25FEC34E0077E4A5 /* wateringcan.usdz */,
+				FA0590E025FEC3500077E4A5 /* wheelbarrow.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0590C625FEC0880077E4A5 /* ARF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0590D625FEC08B0077E4A5 /* Build configuration list for PBXNativeTarget "ARF" */;
+			buildPhases = (
+				FA0590C325FEC0880077E4A5 /* Sources */,
+				FA0590C425FEC0880077E4A5 /* Frameworks */,
+				FA0590C525FEC0880077E4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARF;
+			packageProductDependencies = (
+				FA859CA625FFC09300267700 /* FocusEntity */,
+			);
+			productName = ARF;
+			productReference = FA0590C725FEC0880077E4A5 /* ARF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0590BF25FEC0880077E4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA0590C625FEC0880077E4A5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FA0590C225FEC0880077E4A5 /* Build configuration list for PBXProject "ARF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0590BE25FEC0880077E4A5;
+			packageReferences = (
+				FA859CA525FFC09300267700 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = FA0590C825FEC0880077E4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0590C625FEC0880077E4A5 /* ARF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0590C525FEC0880077E4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0590F825FEC3560077E4A5 /* flower_tulip.usdz in Resources */,
+				FA0590ED25FEC3560077E4A5 /* toy_biplane.usdz in Resources */,
+				FA0590EB25FEC3560077E4A5 /* teapot.usdz in Resources */,
+				FA0590F125FEC3560077E4A5 /* cup_saucer_set.usdz in Resources */,
+				FA0590EA25FEC3560077E4A5 /* wateringcan.usdz in Resources */,
+				FA0590D225FEC08B0077E4A5 /* Preview Assets.xcassets in Resources */,
+				FA0590F625FEC3560077E4A5 /* toy_drummer.usdz in Resources */,
+				FA0590EC25FEC3560077E4A5 /* chair_swan.usdz in Resources */,
+				FA0590F425FEC3560077E4A5 /* toy_robot_vintage.usdz in Resources */,
+				FA0590F325FEC3560077E4A5 /* tv_retro.usdz in Resources */,
+				FA0590CF25FEC08B0077E4A5 /* Assets.xcassets in Resources */,
+				FA0590F525FEC3560077E4A5 /* toy_car.usdz in Resources */,
+				FA0590F225FEC3560077E4A5 /* gramophone.usdz in Resources */,
+				FA0590EF25FEC3560077E4A5 /* wheelbarrow.usdz in Resources */,
+				FA0590F025FEC3560077E4A5 /* trowel.usdz in Resources */,
+				FA0590F725FEC3560077E4A5 /* fender_stratocaster.usdz in Resources */,
+				FA0590EE25FEC3560077E4A5 /* pot_plant.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0590C325FEC0880077E4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA859CA025FF298500267700 /* PlacementSettings.swift in Sources */,
+				FA859C9A25FF030200267700 /* BrowseView.swift in Sources */,
+				FA0590CD25FEC0880077E4A5 /* ContentView.swift in Sources */,
+				FA0590FB25FEC4510077E4A5 /* ControlView.swift in Sources */,
+				FA859C9D25FF059100267700 /* AssetModel.swift in Sources */,
+				FA0590CB25FEC0880077E4A5 /* ARFApp.swift in Sources */,
+				FA859CAA25FFC0D100267700 /* CustomARView.swift in Sources */,
+				FA859CA325FF2B3D00267700 /* PlacementView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA0590D425FEC08B0077E4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0590D525FEC08B0077E4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0590D725FEC08B0077E4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ARF/Preview Content\"";
+				DEVELOPMENT_TEAM = WH4QW9ND3J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ARF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = so.alexandru.sample.ARF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0590D825FEC08B0077E4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ARF/Preview Content\"";
+				DEVELOPMENT_TEAM = WH4QW9ND3J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ARF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = so.alexandru.sample.ARF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0590C225FEC0880077E4A5 /* Build configuration list for PBXProject "ARF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0590D425FEC08B0077E4A5 /* Debug */,
+				FA0590D525FEC08B0077E4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0590D625FEC08B0077E4A5 /* Build configuration list for PBXNativeTarget "ARF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0590D725FEC08B0077E4A5 /* Debug */,
+				FA0590D825FEC08B0077E4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA859CA525FFC09300267700 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA859CA625FFC09300267700 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA859CA525FFC09300267700 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA0590BF25FEC0880077E4A5 /* Project object */;
+}
